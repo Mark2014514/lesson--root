@@ -1,0 +1,98 @@
+*{  
+    padding: 0;  
+    margin: 0;  
+    border: 0;  
+    text-decoration: none;  
+}  
+     
+:focus,:active{outline: none;}  
+a:focus,a:active{outline: none;}  
+     
+nav,footer,header,aside{display: block;}  
+     
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "RobotoSlab", sans-serif;
+  --third-family: "DroidSerif", sans-serif;
+  --font3: "Bilbo Swash Caps", sans-serif;
+} 
+     
+input,button,textarea{font-family:inherit;}  
+     
+input::-ms-clear{display: none;}  
+button{cursor: pointer;}  
+button::-moz-focus-inner {padding:0;border:0;}  
+a, a:visited{text-decoration: none;}  
+a:hover{text-decoration: none;}  
+ul li{list-style: none;}  
+img{vertical-align: top;}  
+     
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}  
+     
+html{  
+    scroll-behavior: smooth;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin:0 auto;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo{
+  font-family: "Bilbo Swash Caps", cursive;
+font-weight: 400;
+font-size: 36px;
+line-height: 114%;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fed136;
+
+
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:40px;
+    color:#fff700;
+    font-weight:500;
+     font-family: "Roboto Slab", serif;
+}
+
+nav a:hover{
+    color:#f5c518;
+}
+header{
+    border: 2px solid #000;
+}
